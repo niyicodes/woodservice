@@ -9,7 +9,7 @@ const OurWork = () => {
   className: "center",
   centerMode: true,
   infinite: true,
-  centerPadding: "60px",
+  centerPadding: "5px",
   slidesToShow: 1,
   speed: 500,
   slidesToScroll: 1,
@@ -66,7 +66,7 @@ const Main = styled.main`
  flex-direction: column;
  justify-content: center;
  max-width: 100%;
- margin: 2rem 4rem;
+ margin: 4rem;
  text-align: center;
 
  h3{
@@ -85,8 +85,9 @@ const Main = styled.main`
 
   img{
    align-self: center;
-   width: 90%;
+   width: 60%;
    margin: 1rem auto;
+   border-radius: 30px;
   }
  }
 `

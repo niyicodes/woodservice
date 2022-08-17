@@ -13,7 +13,7 @@ const Header = () => {
     <Nav>
      <div className='logo'>
        <Link to='/'>
-        {/* <img src={logo} alt="My logo" /> */}
+        <img src='images/logo.png' alt="My logo" />
        </Link>
      </div>
      <div className="menu-icon" onClick={handleClick}>
